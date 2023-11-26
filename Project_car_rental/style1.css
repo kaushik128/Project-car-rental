@@ -1,0 +1,54 @@
+body{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    height:100vh;
+    animation: slider 10s linear infinite;
+    overflow: hidden;
+}
+
+@keyframes slider{
+    0%{
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(10, 3, 3, 0.7)),url(images/travel1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+    }
+    33%{
+        background: linear-gradient(to right, rgba(83, 32, 83, 0.178), rgba(36, 32, 32, 0.689)),url(images/bus2.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    67%{
+        background: linear-gradient(to right, rgba(73, 67, 73, 0.329), rgba(158, 88, 88, 0.589)),url(images/travel2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        background: linear-gradient(to right, rgba(100, 69, 12, 0.352), rgba(184, 32, 32, 0.789)),url(images/travel3.jfif);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+.logindiv{
+
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.text-white{
+    font-weight: bold;
+    font-size:2rem;
+}
+.bg-dark{
+    height: 100vh;
+}
+.bg-dark p{
+   color: #eeebeb;
+}
+.centerdiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
